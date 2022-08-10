@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ole&family=Twinkle+Star&display=swap");
+.about-head {
+  background-image: url("../../images/bg2.jpg");
+  background-size: cover;
+}
+.about-head h1 {
+  color: rgb(216, 216, 216);
+  font-family: "Twinkle Star", cursive;
+  animation: moveright 0.2s linear 1;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+}
+.about-head p {
+  color: white;
+  font-family: "Twinkle Star", cursive;
+  animation: moveright 0.2s linear 1;
+  visibility: hidden;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+.user-heads {
+  animation: moveright 0.2s linear 1;
+  visibility: hidden;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+
+  /* font-family: "Ole", cursive; */
+}
+.user-paras {
+  animation: moveright 0.2s linear 1;
+  visibility: hidden;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+  font-family: "Twinkle Star", cursive;
+
+  /* font-family: "Ole", cursive; */
+}
+.user-box {
+  background-color: rgb(190, 190, 190);
+}
+.about-user2 {
+  margin-left: 27rem;
+}
+@keyframes moveright {
+  0% {
+    transform: translateX(-100px);
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(0px);
+    visibility: visible;
+  }
+}
+.img-class {
+  height: 50vh;
+  width: 20vw;
+}
+.about-user2 {
+  margin-left: 0 !important;
+}
